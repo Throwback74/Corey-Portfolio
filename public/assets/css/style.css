@@ -3,9 +3,35 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url("/assets/images/grossgasteiger-unsplash.jpg");
+.resume-download{
+    padding-top: 25px;
 }
+
+/* body {
+    background-image: url("/assets/images/Backgrounds/grossgasteiger-unsplash.jpg");
+        background-image: url("/assets/images/Backgrounds/grossgasteiger-unsplash.jpg");
+    background-size: cover;
+} */
+
+.image-container{
+    background-image: url("/assets/images/Backgrounds/grossgasteiger-unsplash.jpg");
+    background-size: cover;
+}
+
+.resumeDownload{
+    color: #fff;
+}
+
+/* .image-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#002f4b,#df9182);
+    opacity: .6;
+} */
 
 .container-fluid {
     padding-top: 8px;
@@ -17,13 +43,40 @@ body {
 }
 
 .header-image {
-    background-image: url("/assets/images/coastWhiteHouses.jpg");
+    background-image: url("/assets/images/Backgrounds/coastWhiteHouses.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: #999;
 }
+
+/* .header-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#002f4b,#df9182);
+    opacity: .6; 
+    } */
+
+/* .wrapper::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#002f4b,#df9182);
+    opacity: .6; 
+} */
+
+.box {
+    margin-top: 10%;
+}
+
 .hero.is-primary,
 .navbar-menu, 
 #navMenu {
@@ -125,9 +178,10 @@ body, input, select, textarea {
     font-weight: 300;
     line-height: 1.65em;
     letter-spacing: -0.015em;
-    background-image: url("/assets/images/grossgasteiger-unsplash.jpg");
-    background-size: cover;
+
 }
+
+
 
 p {
     margin: 0 0 2em 0;
@@ -181,6 +235,17 @@ body #main {
     margin-top: -14em;
 }
 
+
+body:first-child{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#002f4b,#df9182);
+    opacity: .6;
+}
 /* Tiles */
 
 .tiles {

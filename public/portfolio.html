@@ -16,8 +16,93 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navAbout">
+    <div class="container-fluid navcontainer">
+        <section class="hero is-primary is-medium">
+            <!-- Hero head: will stick at the top -->
+            <div class="hero-head">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item">
+                                <a href="/index.html" class="brand-logo navbar-item">COREY
+                                        <span id=logo2>SLADE</span>
+                                    </a>
+                                </a>
+                            <!-- <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span> -->
+                            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                                    <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                                        <span aria-hidden="true" id="firstBurger"></span>
+                                        <span aria-hidden="true"></span>
+                                        <span aria-hidden="true"></span>
+                                        <span aria-hidden="true"></span>
+                                    </span>
+                                </a>
+                        </div>
+                        <div id="navMenu navbarMenuHeroA" class="navbar-menu">
+                            <div class="navbar-end">
+                                    <a href="/index.html" class="navbar-item">
+                                        HOME
+                                    </a>
+                                    <a href="/about.html" class="navbar-item">
+                                        ABOUT
+                                    </a>
+                                    <a href="/portfolio.html" class="navbar-item">
+                                        PORTFOLIO
+                                    </a>
+                                    <a href="/contact.html" class="navbar-item">
+                                        CONTACT
+                                    </a>
+                                <span class="navbar-item">
+                                    <!-- <a class="button is-primary is-inverted">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Download</span>
+                                    </a> -->
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Hero content: will be in the middle -->
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title">
+                        Portfolio
+                    </h1>
+                    <h2 class="subtitle">
+                        
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Hero footer: will stick at the bottom -->
+            <!-- <div class="hero-foot">
+                <nav class="tabs">
+                    <div class="container">
+                        <ul>
+                            <li class="is-active"><a>Overview</a></li>
+                            <li><a>Modifiers</a></li>
+                            <li><a>Grid</a></li>
+                            <li><a>Elements</a></li>
+                            <li><a>Components</a></li>
+                            <li><a>Layout</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div> -->
+        </section>
+
+
+
+        <!-- Old Navbar  -->
+        <!-- <nav class="navbar navAbout">
             <div class="container">
                 <div class="navbar-brand columns is-desktop is-vcentered">
                     <a class="navbar-item">
@@ -53,12 +138,13 @@
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav> -->
     </div>
-
+    
     <!--CARDS-->
     <div class="divider"></div>
     <a id="cards1" class="anchor"></a>
+    <section class="projectCards">
     <div class="section scrollspy">
         <h3 class="center-align">Portfolio</h3>
         <!-- <div class="card">
@@ -186,9 +272,41 @@
                 </div>
 
                 <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="portfolioImg" src="/assets/images/softPhoneLanding.PNG">
+                                <a href="https://react-clickygame-cbc.herokuapp.com/" target="_blank">
+                                    <span class="card-title">Memory Game - Built w/ React!</span>
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <a href="https://github.com/Throwback74/react-clicky-game">
+                                    <h5>Github Repository</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img class="portfolioImg" src="/assets/images/softPhoneLanding.PNG">
+                                    <a href="https://journeyonandon.herokuapp.com/" target="_blank">
+                                        <span class="card-title">Journey On - MERN Stack WebApp Project</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <a href="https://github.com/Throwback74/Journey_On">
+                                        <h5>Github Repository</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                <div class="col s12 m6 l4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="portfolioImg" src="/assets/images/oliveTrees2.jpg">
+                            <img class="portfolioImg" src="/assets/images/Backgrounds/oliveTrees2.jpg">
                             <a href="https://github.com/Throwback74/" target="_blank">
                                 <span class="card-title">New Projects Coming Soon!</span>
                             </a>
@@ -204,10 +322,10 @@
             </div>
         </div>
     </div>
-    
+    </section>
     <!-- Footer - add a tool-tip w/ the name of each Social Media Site later -->
     <!-- class="level has-text-centered" -->
-    <footer>
+    <footer class="portfolioFooter">
         <!-- level item has-text-centered -->
         <div class="columns">
             <div class=column></div>

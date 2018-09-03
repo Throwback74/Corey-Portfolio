@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("/assets/images/grossgasteiger-unsplash.jpg");
+    background-image: url("/assets/images/Backgrounds/grossgasteiger-unsplash.jpg");
 }
 
 .container-fluid {
@@ -17,7 +17,7 @@ nav .brand-logo {
 }
 
 .navAbout {
-    background-image: url("/assets/images/bannerR2-Lv.jpg");
+    background-image: url("/assets/images/Backgrounds/bannerR2-Lv.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -130,7 +130,7 @@ body, input, select, textarea {
     font-weight: 300;
     line-height: 1.65em;
     letter-spacing: -0.015em;
-    background-image: url("/assets/images/grossgasteiger-unsplash.jpg");
+    background-image: url("/assets/images/Backgrounds/grossgasteiger-unsplash.jpg");
     background-size: cover;
 }
 

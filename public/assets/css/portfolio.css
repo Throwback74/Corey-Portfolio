@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("/assets/images/grossgasteiger-unsplash.jpg");
+    background-image: url("/assets/images/Backgrounds/grossgasteiger-unsplash.jpg");
 }
 
 .container-fluid {
@@ -16,8 +16,47 @@ nav .brand-logo {
     color: rgb(75, 73, 73) !important;
 }
 
+nav .brand-logo:hover {
+    color: #fff !important;
+}
+
+nav #logo2:hover {
+    color: #fff !important;
+}
+
+
+.hero.is-primary .title {
+    color: #fff;
+    text-align: right;
+}
+
+.container-fluid, .navcontainer {
+    padding-top: 8px;
+    background-image: url(/assets/images/Backgrounds/croppedorangeBannerFlipped.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 460px;
+}
+
+.navbar-end.navbar-item:hover{
+    color: rgb(75, 73, 73) !important;
+}
+
+.hero.is-primary .navbar-end a.navbar-item:hover {
+    background-color: #ffd67e !important;
+    color: rgb(75, 73, 73) !important;
+}
+
+a.navbar-item:hover {
+    background-color: #ffd67e !important;
+    
+    border-radius: 0.4em;
+}
+
 .navAbout {
-    background-image: url("/assets/images/bannerR2-Lv.jpg");
+    background-image: url("/assets/images/Backgrounds/bannerR2-Lv.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -130,7 +169,7 @@ body, input, select, textarea {
     font-weight: 300;
     line-height: 1.65em;
     letter-spacing: -0.015em;
-    background-image: url("/assets/images/grossgasteiger-unsplash.jpg");
+    background-image: url("/assets/images/Backgrounds/grossgasteiger-unsplash.jpg");
     background-size: cover;
 }
 
@@ -409,11 +448,14 @@ h5 {
     color: #E5982B;
 }
 
+.projectCards{
+    margin: 0, auto;
+}
 
 /* Footer */
 
-footer {
-    background: #f0f0f0;
+.portfolioFooter {
+    background:rgb(255, 214, 126, 0.5);
     padding: 1em 0 1em 0;
     text-align: center;
 }
