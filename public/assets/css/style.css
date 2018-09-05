@@ -14,12 +14,16 @@
 } */
 
 .image-container{
-    background-image: url("/assets/images/Backgrounds/grossgasteiger-unsplash.jpg");
+    background-image: url("/assets/images/Backgrounds/8231NT5.png");
     background-size: cover;
 }
 
 .resumeDownload{
     color: #fff;
+}
+
+.filler{
+    height: 200px;
 }
 
 /* .image-container::after{
@@ -77,6 +81,10 @@
     margin-top: 10%;
 }
 
+.navbar-brand{
+    margin-top: 11px;
+}
+
 .hero.is-primary,
 .navbar-menu, 
 #navMenu {
@@ -107,7 +115,7 @@
 }
 
 .brand-logo {
-    font-weight: 300;
+    font-weight: 300 !important;
     font-size: 30px;
 }
 
@@ -443,7 +451,7 @@ body:first-child{
 /* Footer */
 
 footer {
-    background: #f0f0f0;
+    background:rgba(240, 240, 240, 0.3);
     padding: 1em 0 1em 0;
     text-align: center;
 }

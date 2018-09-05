@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.carousel.carousel-slider').carousel({full_width: true});
-
+    var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
 
 });
 
